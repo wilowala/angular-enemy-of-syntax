@@ -8,6 +8,7 @@ import { TheSecondComponentComponent } from './Intro-To-Angular/the-second-compo
 import TheInterpolationComponet from './Basics/Data-Binding/inter-polation-component/inter-polation-component';
 import { PropertyBindingComponent } from './Basics/Data-Binding/property-binding/property-binding.component';
 import { EventBindingComponent } from './Basics/Data-Binding/event-binding/event-binding.component';
+import { TwoWayDataBindingComponent } from './Basics/Data-Binding/two-way-data-binding/two-way-data-binding.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { EventBindingComponent } from './Basics/Data-Binding/event-binding/event
     TheInterpolationComponet,
     PropertyBindingComponent,
     EventBindingComponent,
+    TwoWayDataBindingComponent,
   ],
   imports: [BrowserModule],
   providers: [],
